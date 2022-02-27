@@ -5,6 +5,6 @@
     <p class="card-text">category : {{productItem.category}}</p>
     <p class="card-text">price : {{productItem.price | currency : "EGP" }}</p>
     <p class="card-text" [ngStyle]="{'color':productItem.rating.count ==0?'red':'green'}">{{productItem.rating.count | showStock}}</p>
-    <button (click)="handleButton()" class="btn btn-primary align-self-center w-75">add Card</button>
+    <button    (click)="handleButton()" class="btn btn-primary align-self-center w-75">add Card</button>
   </div>
 </div>

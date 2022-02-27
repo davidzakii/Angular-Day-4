@@ -17,6 +17,8 @@ import { ShowStockPipe } from './show-stock.pipe';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { PasswordMatchValidatorDirective } from './password-match-validator.directive';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { ProductDatailsComponent } from './product-datails/product-datails.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { PasswordMatchValidatorDirective } from './password-match-validator.dire
     ShowStockPipe,
     LoginComponent,
     RegisterComponent,
-    PasswordMatchValidatorDirective
+    PasswordMatchValidatorDirective,
+    NotFoundPageComponent,
+    ProductDatailsComponent
   ],
   imports: [
     BrowserModule,
